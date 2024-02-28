@@ -6,7 +6,7 @@
 /*   By: samartin <samartin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/18 13:10:14 by samartin          #+#    #+#             */
-/*   Updated: 2024/01/30 14:07:30 by samartin         ###   ########.fr       */
+/*   Updated: 2024/02/02 15:20:03 by samartin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,11 @@ class Contact
 		void setPhoneNum(std::string phoneNumP);
 		void setDarkSecret(std::string darkSecretP);
 	private:
-		std::string firstName;
-		std::string lastName;
-		std::string nickName;
-		std::string phoneNum;
-		std::string darkSecret;
+		std::string _firstName;
+		std::string _lastName;
+		std::string _nickName;
+		std::string _phoneNum;
+		std::string _darkSecret;
 };
 
 #endif

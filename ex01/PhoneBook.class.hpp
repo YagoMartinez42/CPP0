@@ -6,7 +6,7 @@
 /*   By: samartin <samartin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/16 16:49:33 by samartin          #+#    #+#             */
-/*   Updated: 2024/01/26 15:21:54 by samartin         ###   ########.fr       */
+/*   Updated: 2024/02/02 15:22:49 by samartin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class PhoneBook
 
 		PhoneBook();
 		~PhoneBook();
-		
+
 		int menu();
 	private:
 		int slot;
