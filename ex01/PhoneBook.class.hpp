@@ -16,6 +16,7 @@
 #  define MAX_CONTACTS 8
 # endif
 # include <iostream>
+# include <sstream>
 # include "Contact.class.hpp"
 
 class PhoneBook

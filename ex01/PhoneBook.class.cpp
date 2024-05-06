@@ -122,8 +122,11 @@ int PhoneBook::prompt4Idx() const
 	std::cout << "WHICH INDEX TO DISPLAY?: ";
 	std::getline(std::cin, idx);
 	std::cout << std::endl;
-	if (idx.length() == 1 && idx[0] <= (char)(MAX_CONTACTS + 48) && idx[0] >= '1') //esto es CPP-like?
-		i = std::stoi(idx) - 1;
+	if (idx.length() == 1 && idx[0] <= (char)(MAX_CONTACTS + '0') && idx[0] >= '1')
+	{
+		std::istringstream(idx) >> i;
+		i--;
+	}
 	return (i);
 }
 
