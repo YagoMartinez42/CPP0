@@ -12,14 +12,13 @@
 
 #include "Contact.class.hpp"
 
-Contact::Contact()
-{
-	this->_firstName = "";
-	this->_lastName = "";
-	this->_nickName = "";
-	this->_phoneNum = "";
-	this->_darkSecret = "";
-}
+Contact::Contact():
+	_firstName(),
+	_lastName(),
+	_nickName(),
+	_phoneNum(),
+	_darkSecret()
+{}
 
 Contact::Contact(std::string firstNameP, std::string lastNameP, std::string nickNameP, \
 	std::string phoneNumP, std::string darkSecretP) \

@@ -17,7 +17,7 @@ int main()
 	PhoneBook cBook = PhoneBook ();
 	int option = 0;
 
-	while (option != 3)
+	while (option != 3 && !std::cin.eof())
 	{
 		option = cBook.menu();
 

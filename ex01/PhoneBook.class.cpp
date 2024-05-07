@@ -64,7 +64,7 @@ Contact PhoneBook::inputContact()
 	std::string values [5] = { "", "", "", "", "" };
 	int i = 0;
 
-	while (i < TOTAL_FIELDS)
+	while (i < TOTAL_FIELDS && !std::cin.eof())
 	{
 		std::cout << "ENTER " << keys[i] << ": ";
 		std::getline(std::cin, values[i]);
