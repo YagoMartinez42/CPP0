@@ -89,7 +89,7 @@ void PhoneBook::addContact(Contact contact2Add)
 	if (this->slot == MAX_CONTACTS - 1)
 	{
 		this->slot = 0;
-		std::cout << "¡LIST IS NOW FULL! NEXT ADDITIONS WILL REPLACE CURRENT" << std::endl;
+		std::cout << "¡LIST IS FULL NOW! NEXT ADDITIONS WILL REPLACE CURRENT" << std::endl;
 	}
 	else
 		this->slot++;
